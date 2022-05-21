@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/estilos.CSS">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</head>
+<body>    <nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Temas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Hojas de estilo en cascada CSS.html">Hojas de estilo
+                                    CSS</a></li>
+                            <li><a class="dropdown-item" href="Frameworks CSS.html">Frameworks</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Recursos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Recurso 1.html">Recurso 1</a></li>
+                            <li><a class="dropdown-item" href="Recurso 2.html">Recurso 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Aprendizaje
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Evaluacion1.html">Quiz Hojas de estilo CSS</a></li>
+                            <li><a class="dropdown-item" href="Evaluacion2.html"> Quiz Frameworks</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Autor.html">Acerca de</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+
+    <h2> Hojas de estilo en cascada (css) </h2>
+    Definición: Es el formato recomendado para las paginas escritas en 
+    formato HTML, la idea que se encuentra detras del desarrollo de CSS es separar
+    la estructura de un doumento de su presentación o aspecto,  Ofrecen 
+    un modo flexible para agregar estilos a un sitio web Este conjunto 
+    de reglas de formato rige el aspecto de las páginas y  permite definir las fuentes, los colores, 
+    el formato y otras características de presentación.
+    <img class="hes" src ="IMG/Captura de pantalla 2022-04-18 203656.png" alt ="Captura de pantalla 2022-04-18 203656"><br>
+    Imagen de autoria propia 
+    <h3>¿Para qué sirven las hojas de estilo?</h3>
+
+    <p>"Constituyen el complemento ideal para HTML o XHTML, su misión es definir la apariencia y el 
+        estilo de sus elementos" Diseño de páginas Web con XHTML, JavaScript y 
+        CSS. Grupo Editorial RA-MA.
+    </p>
+    <p>Algunas de las cosas que se pueden hacer usando este lenguaje, dentro de las cuales podemos encontrar: <br>
+    *Permite definir toda la pagina Web de una sola vez <br>
+    *Aplicar estilos visibles en un trozo de la pagina <br>
+    *definir incluso varios estilos diferentes para una sola etiqueta <br>
+    *permite aplicar formato de una forma más exacta <br>
+    *Una vez aparece la sintaxis CSS se vuelve más fácil maquetar las paginas, ya que las herramientas dadas son mucho más prácticas.<br><br>
+    </p>
+        <br>
+        <p> <br><br>
+
+            <h3>Declaraciones, propiedades y valores</h3>
+            Una declaración consiste básicamente en la asignación de un valor a una propiedad, en otras palabras y para comprender mejor el concepto, la declaración responde preguntas como ¿Qué tamaño de fuente debería tener el título?,¿Qué fondo debería tener?, etc.
+            El formato de la declaración está dado por una propiedad seguida de dos puntos y un valor, finaliza con punto y coma (ej. font-family: 'Times New Roman', Times, serif; para definir la fuente de la página)
+            <h2>Selectores</h2>
+            Son los elementos que comienzan la regla, hace referencia a un grupo de uno o más elementos HTML donde se aplican las declaraciones CSS <br>
+            
+            <h3>Tipos de selectores </h3>
+            Selector de elemento: Selecciona todos los elementos HTML del tipo especificado<br>
+            Selector de identificación: Selecciona el elemento en la página con ID especificado<br>
+            Selector de clase: Selecciona los elementos de la página con una clase especificada<br>
+            Selector de atributo: Elementos en una página con el atributo especificado<br>
+            Selector de pseudoclase: selecciona elementos especificados cuando por ejemplo el puntero esté sobre el<br>
+            
+            <h3>Datos adicionales:</h3>
+            *Cada regla debe estar encapsulada en llaves ({}).<br>
+            *Dentro de cada declaración deben usarse dos puntos (:) para separar la propiedad de su valor <br>
+            *Dentro de cada regla se usa el punto y coma (;)
+        </p> 
+</body>
+<footer>
+    <h2>Referencias </h2>
+
+    Cabello, J. C. O. (2006). Diseño de páginas Web con XHTML, JavaScript y CSS. Grupo Editorial RA-MA.Recuperado de https://books.google.es/books?hl=es&lr=&id=Ro2fDwAAQBAJ&oi=fnd&pg=PA1&dq=hojas+de+estilo+css&ots=vhrrkUJNZW&sig=jw-LjZHEwy4qx54olveJky_MSjs#v=onepage&q=hojas%20de%20estilo%20css&f=false<br><br>
+    Durango, A. (2015). Diseño Web con CSS: 2ª Edición. IT Campus Academy. Recuperado de https://books.google.es/books?hl=es&lr=&id=bCXsCgAAQBAJ&oi=fnd&pg=PA11&dq=hojas+de+estilo+css&ots=mJyp_UUq-b&sig=JiXDU7MMP8FXqfIaJId4OrY_xAY#v=onepage&q=hojas%20de%20estilo%20css&f=false<br><br>
+    Htmlquick, Turoriales, Hojas de estilo encascada (CSS), Recuperado de https://www.htmlquick.com/es/tutorials/css/2.html#using-styles-in-a-documents<br><br>
+    Pilamunga Poveda, E. M., & DT-López Sevilla, G. M. (2012). El maquetado a base de scripts y hojas de estilo en cascada (CSS) y su incidencia en la optimización de un sitio web. Recuperado de http://repositorio.uta.edu.ec/handle/123456789/7146<br><br>
+    
+
+
+
+</footer>
+</html>
